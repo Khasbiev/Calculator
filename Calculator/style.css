@@ -1,0 +1,226 @@
+body{
+    font-size: 36px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);
+
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+main{
+    display: flex;
+    margin: 0;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+.calc{
+    background-color: white;
+    border-radius: 30px;
+
+}
+button:active, button:focus {
+    outline: none;
+  }
+
+.display-input {
+    width: 302px;
+    height: 170px;
+    /*margin: 20px 0;*/
+    border-radius: 30px;
+    background-color: #000000;
+    color: #fff;
+    text-align: right;
+    font-size: 35px;
+    }
+.calc-buttons-raw td {
+    margin: 0 auto;
+    padding: 5px ;
+  }
+.calc-buttons{
+    width: 300px;
+    height: 350px;
+    padding: 5px 10px 10px 10px;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    background-color: #f4f4f4;
+    font-size: 27px;
+    color: #666666;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.1s all;
+    box-shadow: -10px -10px 24px rgba(255, 255, 255, 0.6), 10px 10px 24px rgba(174, 174, 192, 0.2);
+    background: #F0F0F3;
+
+    }
+
+.btn_info {
+    width: 20px;
+    height: 20px;
+    background-color: #f4f4f4;
+    color: #666666;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.1s all;
+    box-shadow: -10px -10px 24px rgba(255, 255, 255, 0.6), 10px 10px 24px rgba(174, 174, 192, 0.2);
+    background: #F0F0F3;
+
+    }
+
+.long-btn {
+    width: 250px;
+    height: 60px;
+    background-color: #f4f4f4;
+    font-size: 27px;
+    color: #666666;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.1s all;
+    box-shadow: -10px -10px 24px rgba(255, 255, 255, 0.6), 10px 10px 24px rgba(174, 174, 192, 0.2);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+
+.rainbow_button:hover{
+    -webkit-animation:rainbow_static 3s infinite;
+    
+}
+@-webkit-keyframes rainbow_static {
+    100% {background-color: #ff0000;}
+    73% {background-color: #ff8000;}
+    60% {background-color: #ffff00;}
+    47% {background-color: #80ff00;}
+    33% {background-color: #0080ff;}
+    16% {background-color: #8000ff;}
+    0% {background-color: #ff0080;}
+    }
+
+
+
+.blinking_rainbow_button:hover {
+    -webkit-animation:rainbow 1s infinite;
+    -ms-animation:rainbow 1s infinite;
+    -o-animation:rainbow 1s infinite;
+    animation:rainbow 1s infinite;
+    }
+    @-webkit-keyframes rainbow {
+        0% {background-color: #ff0000;}
+        10% {background-color: #ff8000;}
+        20% {background-color: #ffff00;}
+        30% {background-color: #80ff00;}
+        40% {background-color: #00ff00;}
+        50% {background-color: #00ff80;}
+        60% {background-color: #00ffff;}
+        70% {background-color: #0080ff;}
+        80% {background-color: #0000ff;}
+        90% {background-color: #8000ff;}
+        100% {background-color: #ff0080;}
+        }
+        @-ms-keyframes rainbow {
+        0% {background-color: #ff0000;}
+        10% {background-color: #ff8000;}
+        20% {background-color: #ffff00;}
+        30% {background-color: #80ff00;}
+        40% {background-color: #00ff00;}
+        50% {background-color: #00ff80;}
+        60% {background-color: #00ffff;}
+        70% {background-color: #0080ff;}
+        80% {background-color: #0000ff;}
+        90% {background-color: #8000ff;}
+        100% {background-color: #ff0080;}
+        }
+        @-o-keyframes rainbow {
+        0% {background-color: #ff0000;}
+        10% {background-color: #ff8000;}
+        20% {background-color: #ffff00;}
+        30% {background-color: #80ff00;}
+        40% {background-color: #00ff00;}
+        50% {background-color: #00ff80;}
+        60% {background-color: #00ffff;}
+        70% {background-color: #0080ff;}
+        80% {background-color: #0000ff;}
+        90% {background-color: #8000ff;}
+        100% {background-color: #ff0080;}
+        }
+        @keyframes rainbow {
+        0% {background-color: #ff0000;}
+        10% {background-color: #ff8000;}
+        20% {background-color: #ffff00;}
+        30% {background-color: #80ff00;}
+        40% {background-color: #00ff00;}
+        50% {background-color: #00ff80;}
+        60% {background-color: #00ffff;}
+        70% {background-color: #0080ff;}
+        80% {background-color: #0000ff;}
+        90% {background-color: #8000ff;}
+        100% {background-color: #ff0080;}
+        }
+    
+
+        
+        
+    
+        @media screen and (max-width: 400px) {
+
+
+            .display-input {
+                width: 222px;
+                height: 120px;
+                /*margin: 20px 0;*/
+                border-radius: 20px;
+                background-color: #000000;
+                color: #fff;
+                text-align: right;
+                font-size: 25px;
+                }
+            .calc-buttons{
+
+                width: 230px;
+                height: 350px;
+                padding: 5px 10px 10px 10px;
+            }
+            .btn {
+                width: 40px;
+                height: 40px;
+                background-color: #f4f4f4;
+                font-size: 15px;
+                color: #666666;
+                text-transform: uppercase;
+                border-radius: 15px;
+                cursor: pointer;
+                transition: 0.1s all;
+                box-shadow: -10px -10px 24px rgba(255, 255, 255, 0.6), 10px 10px 24px rgba(174, 174, 192, 0.2);
+                background: #F0F0F3;
+            
+                }
+                
+            .long-btn {
+                width: 150px;
+                height: 40px;
+                background-color: #f4f4f4;
+                font-size: 27px;
+                color: #666666;
+                text-transform: uppercase;
+                border-radius: 15px;
+                cursor: pointer;
+                transition: 0.1s all;
+                box-shadow: -10px -10px 24px rgba(255, 255, 255, 0.6), 10px 10px 24px rgba(174, 174, 192, 0.2);
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+          }
+          
+          
+          
