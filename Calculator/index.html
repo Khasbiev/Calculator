@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <div class="calc"> 
+            <div class="calc-display">
+                <div class="display-calc">
+                    <input disabled type="text" id="display" value="0" name="" placeholder="000000000000000" class="display-input">
+                </div>
+                    <table class="calc-buttons"> 
+
+                                <tr class="calc-buttons-raw">
+                                    <td>
+                                        <button type="button" class="btn_info" id="butn_info"> ? </button>
+                                    </td>
+                                <tr class="calc-buttons-raw">
+                                    <td>
+                                        <button type="button" class="clear-btn btn blinking_rainbow_button" id="ce">ce</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="clear-btn btn blinking_rainbow_button" id="c">c</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn blinking_rainbow_button" id="plus-minus">+/-</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="operator btn blinking_rainbow_button">/</button>
+                                    </td>
+                                </tr>
+                                <tr class="calc-buttons-raw">
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">7</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">8</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">9</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="operator btn blinking_rainbow_button">*</button>
+                                    </td>
+                                </tr>
+                                <tr class="calc-buttons-raw">
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">4</button> 
+                                    </td>
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">5</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">6</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="operator btn blinking_rainbow_button">-</button>
+                                    </td>
+                                </tr>
+                                <tr class="calc-buttons-raw">
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">1</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">2</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">3</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="operator btn blinking_rainbow_button">+</button>
+                                    </td>
+                                </tr>
+                                <tr class="calc-buttons-raw">
+                                    <td>
+                                        <button type="button" class="btn blinking_rainbow_button" id="decimal">.</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="number btn rainbow_button">0</button>
+
+                                    </td>
+                                    <td>
+                                        <button type="button" class="operator btn blinking_rainbow_button">^</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="operator btn blinking_rainbow_button" id="sqrt">√</button>
+                                    </td>
+                                </tr>
+                                <tr class="calc-buttons-raw">
+                                    <td colspan="4"><button type="button" class="operator long-btn  blinking_rainbow_button" id="result">=</button></td>
+                                </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js">
+    </script>
+</body>
+</html>
